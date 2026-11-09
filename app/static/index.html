@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="예산과 용도에 맞는 호환 PC 구성을 추천합니다.">
+    <title>BuildMyPC | 맞춤 PC 견적</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="brand" href="/">Build<span>MyPC</span></a>
+        <p>예산과 목적에 맞는 PC 구성 추천</p>
+      </div>
+    </header>
+    <main class="wrap">
+      <section class="hero">
+        <h1>나에게 맞는 PC를 찾아보세요</h1>
+        <p>참고 가격 기반의 추천으로 합리적인 견적과 부품 호환성을 확인합니다.</p>
+      </section>
+      <form id="form" class="panel">
+        <label>총예산 (원)
+          <input name="budget" type="number" min="100000" step="10000" value="1200000" required>
+        </label>
+        <label>주요 사용 목적
+          <select name="purpose">
+            <option value="game">게임 (Gaming)</option>
+            <option value="office">사무 및 학습 (Office)</option>
+            <option value="dev">프로그래밍 (Programming)</option>
+            <option value="ai">AI 및 머신러닝</option>
+            <option value="creative">영상 편집</option>
+            <option value="daily">일상 사용</option>
+          </select>
+        </label>
+        <label>목표 해상도
+          <select name="resolution">
+            <option>1080p</option>
+            <option>1440p</option>
+            <option>4K</option>
+          </select>
+        </label>
+        <label>CPU 선호
+          <select name="cpu_preference">
+            <option value="any">상관없음</option>
+            <option>Intel</option>
+            <option>AMD</option>
+          </select>
+        </label>
+        <label>GPU 선호
+          <select name="gpu_preference">
+            <option value="any">상관없음</option>
+            <option>NVIDIA</option>
+            <option>AMD</option>
+          </select>
+        </label>
+        <label>메모리
+          <select name="memory">
+            <option value="16">16GB</option>
+            <option value="32" selected>32GB</option>
+            <option value="64">64GB</option>
+          </select>
+        </label>
+        <label>저장장치
+          <select name="storage">
+            <option value="500">500GB</option>
+            <option value="1000" selected>1TB</option>
+            <option value="2000">2TB</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend>추가 구성 (선택)</legend>
+          <label class="check"><input type="checkbox" name="include" value="monitor"> 모니터 포함</label>
+          <label class="check"><input type="checkbox" name="include" value="keyboard"> 키보드·마우스 포함</label>
+        </fieldset>
+        <label>게임명 (선택)
+          <input name="game" placeholder="예: 배틀그라운드">
+        </label>
+        <label class="wide">기타 요구사항
+          <textarea name="notes" placeholder="원하는 조건을 입력하세요"></textarea>
+        </label>
+        <button type="submit">견적 생성하기</button>
+      </form>
+      <section id="result" class="result" aria-live="polite"></section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

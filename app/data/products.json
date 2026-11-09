@@ -1,0 +1,22 @@
+[
+  {"id":"cpu-amd-7600","category":"CPU","maker":"AMD","model":"Ryzen 5 7600","spec":"6코어 12스레드 / AM5 / 최대 5.1GHz","price":209000,"socket":"AM5","performance":3},
+  {"id":"cpu-amd-7700","category":"CPU","maker":"AMD","model":"Ryzen 7 7700","spec":"8코어 16스레드 / AM5 / 최대 5.3GHz","price":329000,"socket":"AM5","performance":4},
+  {"id":"cpu-intel-i5","category":"CPU","maker":"Intel","model":"Core i5-14400F","spec":"10코어 16스레드 / LGA1700 / 최대 4.7GHz","price":239000,"socket":"LGA1700","performance":3},
+  {"id":"cpu-intel-i7","category":"CPU","maker":"Intel","model":"Core i7-14700F","spec":"20코어 28스레드 / LGA1700 / 최대 5.4GHz","price":439000,"socket":"LGA1700","performance":5},
+  {"id":"mb-am5","category":"메인보드","maker":"ASRock","model":"B650M Pro RS","spec":"AM5 / DDR5 / Micro-ATX / M.2 PCIe 4.0","price":169000,"socket":"AM5","memory":"DDR5","form_factor":"Micro-ATX"},
+  {"id":"mb-intel","category":"메인보드","maker":"MSI","model":"PRO B760M-A WIFI DDR4","spec":"LGA1700 / DDR4 / Micro-ATX / Wi-Fi","price":159000,"socket":"LGA1700","memory":"DDR4","form_factor":"Micro-ATX"},
+  {"id":"ram-ddr5-16","category":"RAM","maker":"Samsung","model":"DDR5-5600 16GB (8GBx2)","spec":"16GB / DDR5-5600 / 듀얼채널","price":59000,"memory":"DDR5","capacity":16},
+  {"id":"ram-ddr5-32","category":"RAM","maker":"Samsung","model":"DDR5-5600 32GB (16GBx2)","spec":"32GB / DDR5-5600 / 듀얼채널","price":109000,"memory":"DDR5","capacity":32},
+  {"id":"ram-ddr5-64","category":"RAM","maker":"Samsung","model":"DDR5-5600 64GB (32GBx2)","spec":"64GB / DDR5-5600 / 듀얼채널","price":199000,"memory":"DDR5","capacity":64},
+  {"id":"ram-ddr4-16","category":"RAM","maker":"Samsung","model":"DDR4-3200 16GB (8GBx2)","spec":"16GB / DDR4-3200 / 듀얼채널","price":45000,"memory":"DDR4","capacity":16},
+  {"id":"ram-ddr4-32","category":"RAM","maker":"Samsung","model":"DDR4-3200 32GB (16GBx2)","spec":"32GB / DDR4-3200 / 듀얼채널","price":75000,"memory":"DDR4","capacity":32},
+  {"id":"ram-ddr4-64","category":"RAM","maker":"Samsung","model":"DDR4-3200 64GB (32GBx2)","spec":"64GB / DDR4-3200 / 듀얼채널","price":139000,"memory":"DDR4","capacity":64},
+  {"id":"gpu-nvidia-4060","category":"GPU","maker":"NVIDIA","model":"GeForce RTX 4060 8GB","spec":"8GB GDDR6 / 레이트레이싱 지원","price":399000,"gpu_brand":"NVIDIA","length":245,"power":115},
+  {"id":"gpu-nvidia-4070s","category":"GPU","maker":"NVIDIA","model":"GeForce RTX 4070 SUPER 12GB","spec":"12GB GDDR6X / 레이트레이싱 지원","price":849000,"gpu_brand":"NVIDIA","length":310,"power":220},
+  {"id":"gpu-amd-7600","category":"GPU","maker":"AMD","model":"Radeon RX 7600 8GB","spec":"8GB GDDR6 / 1080p 게이밍 지향","price":369000,"gpu_brand":"AMD","length":270,"power":165},
+  {"id":"ssd-1tb","category":"SSD","maker":"Western Digital","model":"WD Blue SN580 1TB","spec":"NVMe PCIe 4.0 / 읽기 최대 4,150MB/s","price":85000,"interface":"NVMe","capacity":1000},
+  {"id":"ssd-2tb","category":"SSD","maker":"Western Digital","model":"WD Blue SN580 2TB","spec":"NVMe PCIe 4.0 / 읽기 최대 4,150MB/s","price":149000,"interface":"NVMe","capacity":2000},
+  {"id":"psu-650","category":"파워","maker":"FSP","model":"HYPER K PRO 650W 80PLUS Bronze","spec":"650W / 80PLUS Bronze","price":65000,"wattage":650},
+  {"id":"case-matx","category":"케이스","maker":"darkFlash","model":"DLX21 Mesh","spec":"Micro-ATX / GPU 최대 360mm / CPU 쿨러 최대 165mm","price":69000,"form_factor":"Micro-ATX","gpu_max_length":360,"cooler_max_height":165},
+  {"id":"cooler-air","category":"CPU 쿨러","maker":"DeepCool","model":"AG400","spec":"싱글타워 / 높이 150mm / AM5·LGA1700 지원","price":30000,"sockets":["AM5","LGA1700"],"height":150}
+]

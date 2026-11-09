@@ -1,5 +1,7 @@
 services:
   buildmypc:
+    build:
+      context: .
     image: ${DOCKERHUB_USERNAME:?Set DOCKERHUB_USERNAME}/${IMAGE_NAME:-buildmypc}:${IMAGE_TAG:-latest}
     ports:
       - "8000:8000"

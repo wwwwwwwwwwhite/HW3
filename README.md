@@ -29,7 +29,7 @@ Install Docker Desktop, then set the Docker Hub username in your shell:
 
 ```bash
 export DOCKERHUB_USERNAME=your-dockerhub-username
-docker compose up -d
+docker compose up -d --build
 docker compose ps
 ```
 
